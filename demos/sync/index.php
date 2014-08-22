@@ -16,13 +16,17 @@
 	<script src="http://ox-d.registerguard.com/w/1.0/jstag"></script>
 	<script>
 		var _ox = OX();
+		// Page Type: Section
 		_ox.addAdUnit('537175630'); // Billboard
 		_ox.addAdUnit('537175626'); // Leaderboard 1
 		_ox.addAdUnit('537175856'); // Mobile Banner 1
 		_ox.addAdUnit('537175627'); // Medium Rectangle 1
+		_ox.addAdUnit('537175638'); // Half Page 1
 		_ox.addAdUnit('537175631'); // Homepage Block 1
 		_ox.addAdUnit('537175629'); // Medium Rectangle 2
-		_ox.addAdUnit('328209');    // Leaderboard ROS
+		// ROS:
+		_ox.addAdUnit('328209');    // Leaderboard Bottom
+		_ox.addAdUnit('537187629'); // Mobile Banner 1 - Bottom
 		<?php parse_str($_SERVER['QUERY_STRING'], $topics); ?>
 		<?php foreach ($topics as $key => $value): ?>_ox.addContentTopic(<?=$key?>, '<?=$value?>');<?php endforeach; ?>
 		_ox.fetchAds();
@@ -79,15 +83,21 @@
 				
 				<hr>
 				
+				<!-- //////////////////// Half Page 1 \\\\\\\\\\\\\\\\\\\\ -->
+				<div class="medium_rectangle advert"><script>_ox.showAdUnit('537175638');</script></div>
+				<!-- \\\\\\\\\\\\\\\\\\\\ Half Page 1 //////////////////// -->
+				
+				<hr>
+				
 				<!-- //////////////////// Homepage Block 1 \\\\\\\\\\\\\\\\\\\\ -->
 				<div class="column_block advert"><script>_ox.showAdUnit('537175631');</script></div>
 				<!-- \\\\\\\\\\\\\\\\\\\\ Homepage Block 1 //////////////////// -->
 				
 				<hr>
 				
-				<!-- //////////////////// MEDIUM RECTANGLE 2 \\\\\\\\\\\\\\\\\\\\ -->
+				<!-- //////////////////// Medium Rectangle 2 \\\\\\\\\\\\\\\\\\\\ -->
 				<div class="medium_rectangle advert"><script>_ox.showAdUnit('537175629');</script></div>
-				<!-- \\\\\\\\\\\\\\\\\\\\ MEDIUM RECTANGLE 2 //////////////////// -->
+				<!-- \\\\\\\\\\\\\\\\\\\\ Medium Rectangle 2 //////////////////// -->
 				
 			</div> <!-- /.w_col -->
 			
@@ -95,9 +105,13 @@
 		
 		<hr>
 		
-		<!-- //////////////////// LEADERBOARD BOTTOM \\\\\\\\\\\\\\\\\\\\ -->
+		<!-- //////////////////// Leaderboard Bottom \\\\\\\\\\\\\\\\\\\\ -->
 		<div class="leaderboard advert"><script>_ox.showAdUnit('328209');</script></div>
-		<!-- \\\\\\\\\\\\\\\\\\\\ LEADERBOARD BOTTOM //////////////////// -->
+		<!-- \\\\\\\\\\\\\\\\\\\\ Leaderboard Bottom //////////////////// -->
+		
+		<!-- //////////////////// Mobile Banner 1 - Bottom \\\\\\\\\\\\\\\\\\\\ -->
+		<div class="leaderboard advert"><script>_ox.showAdUnit('537187629');</script></div>
+		<!-- \\\\\\\\\\\\\\\\\\\\ Mobile Banner 1 - Bottom //////////////////// -->
 		
 	</div> <!-- /.wiffle -->
 	
