@@ -8,7 +8,10 @@
 	<title>Synchronous javascript: Multi-ad unit ad tags</title>
 	
 	<link rel="stylesheet" href="../assets/styles/wiffle.min.css">
+	<link rel="stylesheet" href="../assets/styles/onoff.css">
 	<link rel="stylesheet" href="../assets/styles/styles.css">
+	
+	<link rel="stylesheet" href="http://advertising.registerguard.com/assets/billboard/1.4/css/billboard.css">
 	
 	<script src="http://ox-d.registerguard.com/w/1.0/jstag"></script>
 	<script>
@@ -99,6 +102,8 @@
 	</div> <!-- /.wiffle -->
 	
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	
+	<script src="http://advertising.registerguard.com/assets/billboard/1.4/js/billboard.js"></script>
 	
 	<script>
 		
