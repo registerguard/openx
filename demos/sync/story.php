@@ -16,6 +16,10 @@
 	
 	<div class="w_col w_C640 w_D980">
 		
+		<?php include('includes/meta.php'); ?>
+		
+		<hr>
+		
 		<div class="deep Con Don">
 			
 			<!-- //////////////////// Medium Rectangle 1 \\\\\\\\\\\\\\\\\\\\ -->
