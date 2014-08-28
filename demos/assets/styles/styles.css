@@ -23,3 +23,27 @@
 	max-height: 100%;
 	-ms-interpolation-mode: bicubic;
 }
+
+.deep {
+	width: 100%;
+	border-width: 1px 0;
+	border-style: solid;
+	border-color: #ccc;
+	margin: 10px 0;
+	padding: 10px 0;
+	position: relative;
+}
+@media only screen and (min-width: 665px) {
+	.deep {
+		width: 300px;
+		border: 0;
+		margin: 0 0 0 20px;
+		padding: 0;
+		float: right;
+		display: inline;
+		clear: right;
+	}
+}
+@media only screen and (min-width: 1005px) {
+	.deep { margin-right: -170px; }
+}
