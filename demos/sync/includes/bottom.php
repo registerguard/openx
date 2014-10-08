@@ -5,6 +5,19 @@
 
 <script>
 	
-	$(document).ready(function() {});
+	$(document).ready(function() {
+		
+		var width = window.screen.width;
+		var height = window.screen.height;
+		var ratio = window.window.devicePixelRatio;
+		
+		$('.details').append([
+			'<br>',
+			'<b>Screen:</b> ',
+			width + 'x' + height + ' ',
+			'(' + ratio + ' dpr)'
+		]);
+		
+	});
 	
 </script>

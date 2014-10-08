@@ -4,7 +4,7 @@
 	<a href="http://docs.openx.com/enterprise/#adtagguide_synchjs_struct_multi.html">Multi-ad unit ad tags</a>
 </h1>
 
-<p>
+<p class="details">
 	<b>Page Type:</b> Section
 	<br>
 	<b><a href="https://docs.google.com/spreadsheets/d/1Qa0ambORhI9jYjIdGD79SjLkCQggg89MEtjR6liIm8g" target="_blank">Content Topics</a>:</b> <?php foreach ($topics as $key => $value): ?><?=$key?>=<?=$value?> <? endforeach; ?>
