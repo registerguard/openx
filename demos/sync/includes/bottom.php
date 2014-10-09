@@ -7,15 +7,61 @@
 	
 	$(document).ready(function() {
 		
+/* global define */
+// https://github.com/umdjs/umd
+// http://toddmotto.com/what-function-window-document-undefined-iife-really-means/
+// ;(function (root, factory) {
+// 	'use strict';
+// 	if (typeof define === 'function' && define.amd) {
+// 		define(function() {
+// 			return (root.FOO = factory(root, (root.FOO || {})));
+// 		});
+// 	} else {
+// 		root.FOO = factory(root, (root.FOO || {}));
+// 	}
+// 	}(this, function(foo) {
+// 		if (typeof foo != '')
+// 		return foo = {
+// 			baz: window.innerWidth,
+// 			bar: document.getElementsByTagName('body')[0],
+// 			zilch: undefined
+// 		};
+// 	},
+// window, document, undefined));
+//!function(n,e){"function"==typeof define&&define.amd?define(function(){return n.FOO=e(n,n.FOO||{})}):n.FOO=e(n,n.FOO||{})}(this,function(n){return""!=typeof n?n={baz:window.innerWidth,bar:document.getElementsByTagName("body")[0],zilch:void 0}:void 0},window,document,void 0);
+
+/* global define */
+// https://github.com/umdjs/umd
+// http://toddmotto.com/what-function-window-document-undefined-iife-really-means/
+// ;(function (root, factory) {
+// 	'use strict';
+// 	if (typeof define === 'function' && define.amd) {
+// 		define(function() {
+// 			return (root.FOO = factory(root, (root.FOO || {})));
+// 		});
+// 	} else {
+// 		root.FOO = factory(root, (root.FOO || {}));
+// 	}
+// }(this, function(foo) {
+// 	return foo = {
+// 		baz: window.innerWidth,
+// 		bar: document.getElementsByTagName('body')[0],
+// 		zilch: undefined
+// 	};
+// }));
+// var $foo = window.document.FOO;
+
+console.log($foo.baz, $foo.bar, $foo);
+		
 		// https://github.com/umdjs/umd
 		// http://toddmotto.com/what-function-window-document-undefined-iife-really-means/
 		// ;(function (root, factory) {
 		// 	if (typeof define === 'function' && define.amd) {
 		// 		define(function() {
-		// 			return (root.FOO = factory(root, root.FOO || {}));
+		// 			return (root.FOO = factory(root, (root.FOO || {})));
 		// 		});
 		// 	} else {
-		// 		root.FOO = factory(root, root.FOO || {});
+		// 		root.FOO = factory(root, (root.FOO || {}));
 		// 	}
 		// 	}(this, function(foo) {
 		// 		// Screen and viewport info.
@@ -23,19 +69,20 @@
 		// 		var $window = window;
 		// 		var $document = document;
 		// 		var $screen = $window.screen;
-		// 		console.log($document);
 		// 		var $documentElement = $document.documentElement;
 		// 		var $body = $document.getElementsByTagName('body')[0];
-		// 		return {
+		// 		return foo = {
 		// 			w: $screen.width,
 		// 			h: $screen.height,
 		// 			x: $window.innerWidth || $documentElement.clientWidth || $body.clientWidth,
 		// 			y: $window.innerHeight || $documentElement.clientHeight || $body.clientHeight,
 		// 			r: $window.devicePixelRatio
 		// 		};
-		// 	}, window, document, undefined));
-		// window.FOO;
-		// console.log(FOO);
+		// 	},
+		// window, document, undefined));
+		
+		var info = window.document.FOO;
+		console.log(info);
 		
 		var w = window;
 		var d = document;

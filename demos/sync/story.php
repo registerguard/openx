@@ -28,11 +28,11 @@
 	<div class="wiffle">
 		
 		<!-- //////////////////// Leaderboard 1 \\\\\\\\\\\\\\\\\\\\ -->
-		<div class="leaderboard advert"><div id="leaderboard-1"><script>_ox.showAdUnit('537200296');</script></div></div>
+		<div class="advert"><div id="leaderboard-1"><script>_ox.showAdUnit('537200296');</script></div></div>
 		<!-- \\\\\\\\\\\\\\\\\\\\ Leaderboard 1 //////////////////// -->
 		
 		<!-- //////////////////// Mobile Banner \\\\\\\\\\\\\\\\\\\\ -->
-		<div class="mobile-banner advert"><div id="mobile-banner"><script>_ox.showAdUnit('537200316');</script></div></div>
+		<div class="advert"><div id="mobile-banner"><script>_ox.showAdUnit('537200316');</script></div></div>
 		<!-- \\\\\\\\\\\\\\\\\\\\ Mobile Banner //////////////////// -->
 		
 		<hr>
@@ -50,7 +50,7 @@
 				<div class="deep Con Don">
 					
 					<!-- //////////////////// Medium Rectangle 1 \\\\\\\\\\\\\\\\\\\\ -->
-					<div class="medium-rectangle advert"><div id="medium-rectangle-1"><script>_ox.showAdUnit('537200298');</script></div></div>
+					<div class="advert"><div id="medium-rectangle-1"><script>_ox.showAdUnit('537200298');</script></div></div>
 					<!-- \\\\\\\\\\\\\\\\\\\\ Medium Rectangle 1 //////////////////// -->
 					
 				</div> <!-- /.deep -->
@@ -69,7 +69,7 @@
 				<div class="deep Con Don">
 					
 					<!-- //////////////////// Medium Rectangle 2 \\\\\\\\\\\\\\\\\\\\ -->
-					<div class="medium-rectangle advert"><div id="medium-rectangle-2"><script>_ox.showAdUnit('537200299');</script></div></div>
+					<div class="advert"><div id="medium-rectangle-2"><script>_ox.showAdUnit('537200299');</script></div></div>
 					<!-- \\\\\\\\\\\\\\\\\\\\ Medium Rectangle 2 //////////////////// -->
 					
 				</div> <!-- /.deep -->
@@ -94,11 +94,11 @@
 		<hr>
 		
 		<!-- //////////////////// Leaderboard Bottom \\\\\\\\\\\\\\\\\\\\ -->
-		<div class="leaderboard advert"><div id="leaderboard-bottom"><script>_ox.showAdUnit('537200307');</script></div></div>
+		<div class="advert"><div id="leaderboard-bottom"><script>_ox.showAdUnit('537200307');</script></div></div>
 		<!-- \\\\\\\\\\\\\\\\\\\\ Leaderboard Bottom //////////////////// -->
 		
-		<!-- //////////////////// Mobile Banner 1 - Bottom \\\\\\\\\\\\\\\\\\\\ -->
-		<div class="mobile-banner advert"><div id="mobile-banner-bottom"><script>_ox.showAdUnit('537200312');</script></div></div>
+		<!-- //////////////////// ROS Mobile Banner Bottom \\\\\\\\\\\\\\\\\\\\ -->
+		<div class="advert"><div id="ros-mobile-banner-bottom"><script>_ox.showAdUnit('537200312');</script></div></div>
 		<!-- \\\\\\\\\\\\\\\\\\\\ Mobile Banner 1 - Bottom //////////////////// -->
 		
 	</div> <!-- /.wiffle -->
