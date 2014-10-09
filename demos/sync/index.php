@@ -58,9 +58,11 @@
 		<div class="leaderboard advert"><div id="leaderboard"><script>_ox.showAdUnit('537200277');</script></div></div>
 		<!-- \\\\\\\\\\\\\\\\\\\\ Leaderboard 1 //////////////////// -->
 		
+		<?=/*
 		<!-- //////////////////// Mobile Banner \\\\\\\\\\\\\\\\\\\\ -->
 		<div class="mobile-banner advert"><div id="mobile-banner"><script>_ox.showAdUnit('537200313');</script></div></div>
 		<!-- \\\\\\\\\\\\\\\\\\\\ Mobile Banner //////////////////// -->
+		*/?>
 		
 		<hr>
 		
