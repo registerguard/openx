@@ -6,8 +6,6 @@
 	<script>
 		var _ox = OX();
 		_ox.addAdUnit('537229379'); // Billboard
-		_ox.addAdUnit('537200277'); // Leaderboard 1
-		_ox.addAdUnit('537200313'); // Mobile Banner
 		_ox.addAdUnit('537229382'); // Medium Rectangle 1
 		_ox.addAdUnit('537229386'); // Medium Rectangle 2
 		_ox.addAdUnit('537229391'); // Medium Rectangle 3
@@ -15,6 +13,7 @@
 		_ox.addAdUnit('537229394'); // Homepage Block 2
 		_ox.addAdUnit('537229395'); // Homepage Block 3
 		_ox.addAdUnit('537229396'); // Site Skin
+		_ox.addAdUnit('537229537'); // Leaderboard Bottom
 		_ox.addAdUnit('537200302'); // ROS Weather Widget
 		_ox.addAdUnit('331937');    // ROS Column Block
 		_ox.addAdUnit('537200303'); // ROS Adicio Widget
@@ -51,16 +50,6 @@
 		<!-- //////////////////// Billboard \\\\\\\\\\\\\\\\\\\\ -->
 		<script>_ox.showAdUnit('537229379');</script>
 		<!-- \\\\\\\\\\\\\\\\\\\\ Billboard //////////////////// -->
-		
-		<hr>
-		
-		<!-- //////////////////// Leaderboard 1 \\\\\\\\\\\\\\\\\\\\ -->
-		<div class="advert"><div id="leaderboard-1"><script>_ox.showAdUnit('537200277');</script></div></div>
-		<!-- \\\\\\\\\\\\\\\\\\\\ Leaderboard 1 //////////////////// -->
-		
-		<!-- //////////////////// Mobile Banner \\\\\\\\\\\\\\\\\\\\ -->
-		<div class="advert"><div id="mobile-banner"><script>_ox.showAdUnit('537200313');</script></div></div>
-		<!-- \\\\\\\\\\\\\\\\\\\\ Mobile Banner //////////////////// -->
 		
 		<hr>
 		
@@ -129,6 +118,12 @@
 			</div> <!-- /.w_col -->
 			
 		</div> <!-- /.w_row -->
+		
+		<hr>
+		
+		<!-- //////////////////// Leaderboard Bottom \\\\\\\\\\\\\\\\\\\\ -->
+		<div class="advert"><div id="leaderboard-bottom"><script>_ox.showAdUnit('537229537');</script></div></div>
+		<!-- \\\\\\\\\\\\\\\\\\\\ Leaderboard Bottom //////////////////// -->
 		
 		<hr>
 		
