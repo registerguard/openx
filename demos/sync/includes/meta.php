@@ -8,7 +8,7 @@
 
 <p><b>Page template types:</b> <a href="./<?=$qs?>">Homepage</a> | <a href="section.php<?=$qs?>">Section Front</a> | <a href="story.php<?=$qs?>">Story Page</a></p>
 
-<p>
+<p class="details">
 	<b>Content Topic presets:</b> <a href="?3=business&amp;3001=local&amp;3002=blue%20chip">Business</a> | <a href="?6=entertainment">Entertainment</a> (manually change in URL)
 	<?php if ( ! empty($topics)): ?>
 		<br>

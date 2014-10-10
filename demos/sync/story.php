@@ -3,7 +3,6 @@
 <head>
 	
 	<?php include('includes/head.php'); ?>
-	
 	<script>
 		var _ox = OX();
 		_ox.addAdUnit('537200296'); // Leaderboard 1
@@ -18,9 +17,11 @@
 		<?php foreach ($topics as $key => $value): ?>
 		_ox.addContentTopic(<?=$key?>, '<?=$value?>');
 		<?php endforeach; ?>
+		// Variables:
 		_ox.addVariable('bp', ((window.innerWidth <= 1005) ? 'm' : 'd')); // ... return "m" or "d", where 1005px is the break point between "mobile" and "desktop".
 		_ox.fetchAds();
 	</script>
+	<!-- [END] OpenX -->
 	
 </head>
 <body>

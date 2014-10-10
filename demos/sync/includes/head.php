@@ -9,4 +9,5 @@
 
 <link rel="stylesheet" href="//advertising.registerguard.com/assets/billboard/1.4/css/billboard.css">
 
+<!-- [BEGIN] OpenX -->
 <script src="//ox-d.registerguard.com/w/1.0/jstag"></script>

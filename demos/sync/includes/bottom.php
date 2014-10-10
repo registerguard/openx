@@ -50,39 +50,37 @@
 // 	};
 // }));
 // var $foo = window.document.FOO;
+//console.log($foo.baz, $foo.bar, $foo);
 
-console.log($foo.baz, $foo.bar, $foo);
-		
-		// https://github.com/umdjs/umd
-		// http://toddmotto.com/what-function-window-document-undefined-iife-really-means/
-		// ;(function (root, factory) {
-		// 	if (typeof define === 'function' && define.amd) {
-		// 		define(function() {
-		// 			return (root.FOO = factory(root, (root.FOO || {})));
-		// 		});
-		// 	} else {
-		// 		root.FOO = factory(root, (root.FOO || {}));
-		// 	}
-		// 	}(this, function(foo) {
-		// 		// Screen and viewport info.
-		// 		// http://stackoverflow.com/a/11744120/922323
-		// 		var $window = window;
-		// 		var $document = document;
-		// 		var $screen = $window.screen;
-		// 		var $documentElement = $document.documentElement;
-		// 		var $body = $document.getElementsByTagName('body')[0];
-		// 		return foo = {
-		// 			w: $screen.width,
-		// 			h: $screen.height,
-		// 			x: $window.innerWidth || $documentElement.clientWidth || $body.clientWidth,
-		// 			y: $window.innerHeight || $documentElement.clientHeight || $body.clientHeight,
-		// 			r: $window.devicePixelRatio
-		// 		};
-		// 	},
-		// window, document, undefined));
-		
-		var info = window.document.FOO;
-		console.log(info);
+// https://github.com/umdjs/umd
+// http://toddmotto.com/what-function-window-document-undefined-iife-really-means/
+// ;(function (root, factory) {
+// 	if (typeof define === 'function' && define.amd) {
+// 		define(function() {
+// 			return (root.FOO = factory(root, (root.FOO || {})));
+// 		});
+// 	} else {
+// 		root.FOO = factory(root, (root.FOO || {}));
+// 	}
+// 	}(this, function(foo) {
+// 		// Screen and viewport info.
+// 		// http://stackoverflow.com/a/11744120/922323
+// 		var $window = window;
+// 		var $document = document;
+// 		var $screen = $window.screen;
+// 		var $documentElement = $document.documentElement;
+// 		var $body = $document.getElementsByTagName('body')[0];
+// 		return foo = {
+// 			w: $screen.width,
+// 			h: $screen.height,
+// 			x: $window.innerWidth || $documentElement.clientWidth || $body.clientWidth,
+// 			y: $window.innerHeight || $documentElement.clientHeight || $body.clientHeight,
+// 			r: $window.devicePixelRatio
+// 		};
+// 	},
+// window, document, undefined));
+// var info = window.document.FOO;
+// console.log(info);
 		
 		var w = window;
 		var d = document;
